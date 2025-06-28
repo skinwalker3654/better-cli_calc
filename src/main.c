@@ -39,7 +39,7 @@ int main(int argc, char **argv)
             return EXIT_SUCCESS;
         }
         if (strcmp(argv[1], round_nums) == 0) {
-            printf("%.2f rounded is %.2f\n", num1, round_num(num1));
+            printf("%f rounded is %.2f\n", num1, round_num(num1));
             return EXIT_SUCCESS;
         }
 
