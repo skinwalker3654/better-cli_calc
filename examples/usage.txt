@@ -7,6 +7,7 @@ commands:
     mod         leftover of an undone division
     min         finds smallest number
     max         finds biggest number
+    pow         in 1st number adds it in the power of the 2nd
     --log       find the log of a number
     --sqrt      square root of a number
     --fac       factorial of a number 
