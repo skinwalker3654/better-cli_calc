@@ -1,0 +1,21 @@
+syntax: ./main <command> <num1> <num2>
+commands:
+    add         addition
+    sub         subtraction
+    mul         multiplication
+    div         division
+    mod         leftover of an undone division
+    min         finds smallest number
+    max         finds biggest number
+    --log       find the log of a number
+    --sqrt      square root of a number
+    --fac       factorial of a number 
+    --round     rounds the number
+    --help      cheetsheets
+
+examples:               outputs:
+    ./main add 2 4             6.00
+    ./main div 3 2             1.50
+    ./main --sqrt 9            3.00
+    ./main --log 10            2.30
+    ./main mod 10 3            1.00

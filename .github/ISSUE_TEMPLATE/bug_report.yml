@@ -1,0 +1,33 @@
+name: 🐛 Bug Report
+description: Report a bug in the calculator
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug in the CLI Calculator! Please fill out all fields.
+  - type: input
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: e.g. Calculator crashes when dividing by zero
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Tell us how to trigger the bug.
+      placeholder: |
+        1. Run the app
+        2. Enter `div 5 0`
+        3. Crash
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App Version
+      placeholder: e.g. v1.2.0
+

@@ -1,0 +1,19 @@
+name: 🚀 Feature Request
+description: Suggest a new calculator feature
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: input
+    id: feature
+    attributes:
+      label: What do you want to add?
+      placeholder: e.g. Support for parentheses in expressions
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Why is it useful?
+      placeholder: |
+        This would allow users to calculate complex expressions like (3+4)*2.
+
