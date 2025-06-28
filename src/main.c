@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 
     if (argc == 2 && strcmp(argv[1], help_comand) == 0) {
         help_info();
-        return EXIT_FAILURE;
+        return EXIT_SUCCESS;
     }
 
     if (argc < 3) {
