@@ -8,7 +8,7 @@ float sub_nums(float a, float b) { return a - b; }
 float mul_nums(float a, float b) { return a * b; }
 float div_nums(float a, float b) { return a / b; }
 float round_num(float a) { 
-    float rounded_num = roundf(a * 10) / 10;  //better rounding 
+    float rounded_num = roundf(a * 10) / 10; 
     return rounded_num; 
 }
 
