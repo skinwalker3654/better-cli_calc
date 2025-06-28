@@ -14,5 +14,5 @@ Yes:
 - Collaboration
 - Constructive feedback
 
-Report abuse: email@example.com
+Report abuse: skinrr932@gmail.com
 
