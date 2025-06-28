@@ -7,7 +7,10 @@ float add_nums(float a, float b) { return a + b; }
 float sub_nums(float a, float b) { return a - b; }
 float mul_nums(float a, float b) { return a * b; }
 float div_nums(float a, float b) { return a / b; }
-float round_num(float a) { return roundf(a); }
+float round_num(float a) { 
+    float rounded_num = (int)roundf(a);  
+    return rounded_num; 
+}
 
 float max_num(float a, float b) {
     if (a == b) printf("%.2f = %.2f\n", a, b);
