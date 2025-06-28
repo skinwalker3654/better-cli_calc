@@ -23,7 +23,7 @@ float max_num(float a, float b) {
 float min_num(float a, float b) {
     if (a == b) {
         printf("%.2f = %.2f\n", a, b);
-        exit(EXIT_SUCCESS)
+        exit(EXIT_SUCCESS);
     }
     return (a < b) ? a : b;
 }
