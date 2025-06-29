@@ -11,7 +11,7 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      placeholder: e.g. Calculator crashes when dividing by zero
+      placeholder: It rounds unproperly example 3.4566 -> 3.00
     validations:
       required: true
   - type: textarea
