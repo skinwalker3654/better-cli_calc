@@ -14,7 +14,8 @@ int main(int argc, char **argv)
     }
 
     if (argc < 3) {
-        help_info();
+        printf("Invalid arguments passed.\n");
+        printf("run './main --help' for more details\n");
         return EXIT_FAILURE;
     }
 
@@ -44,13 +45,13 @@ int main(int argc, char **argv)
         }
 
         fprintf(stderr, "Error: This command requires a second number\n");
-        help_info();
+        fprintf(stderr, "run './main --help' for more ditails\n");
         return EXIT_FAILURE;
     }
 
     if (argc != 4) {
         fprintf(stderr, "Error: Invalid number of arguments for this command.\n");
-        help_info();
+        fprintf(stderr, "run './main --help' for more details\n");
         return EXIT_FAILURE;
     }
 
@@ -83,7 +84,7 @@ int main(int argc, char **argv)
         printf("%.2f %% %.2f = %d\n", num1, num2, mod_nums(num1, num2));
     } else {
         fprintf(stderr, "Error: Invalid command\n");
-        help_info();
+        fprintf(stderr, "run './main --help' for more ditails\n");
         return EXIT_FAILURE;
     }
 
