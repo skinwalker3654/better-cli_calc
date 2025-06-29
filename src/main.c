@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     }
 
     if (argc < 3) {
-        printf("Invalid arguments passed.\n");
+        printf("Error: Invalid arguments passed.\n");
         printf("run './main --help' for more details\n");
         return EXIT_FAILURE;
     }
