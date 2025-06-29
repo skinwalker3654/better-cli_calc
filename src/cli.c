@@ -90,7 +90,8 @@ int factorial_of(float a) {
 }
 
 void help_info(void) {
-    fprintf(stderr, "Usage: ./main <command> <num1> <num2>\n");
+    fprintf(stderr, "1st Usage: ./main <command> <num1> <num2>\n");
+    fprintf(stderr, "2nd Usage: ./main <--command> <num1>\n");
     fprintf(stderr, "Commands: add sub mul div pow --fac --log\n");
     fprintf(stderr, "          max min --round --sqrt mod\n");
 }
