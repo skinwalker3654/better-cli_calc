@@ -21,13 +21,13 @@ body:
       description: Tell us how to trigger the bug.
       placeholder: |
         1. Run the app
-        2. Enter `div 5 0`
-        3. Crash
+        2. Enter `./main --round 3.45666`
+        3. Not the needed result
     validations:
       required: true
   - type: input
     id: version
     attributes:
       label: App Version
-      placeholder: e.g. v1.2.0
+      placeholder: v1.0.0
 
