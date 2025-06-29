@@ -14,6 +14,8 @@ commands:
     --round     rounds the number
     --help      cheetsheets
 
+!!: In the -- commands you pass only 1 number except the --help command
+
 examples:               outputs:
     ./main add 2 4             6.00
     ./main div 3 2             1.50
