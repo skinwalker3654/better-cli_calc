@@ -5,8 +5,8 @@ Thanks for helping! 🙌
 ## Setup
 
 1. Clone the repo
-2. Build the project (e.g. `gcc calc.c -o calc`)
-3. Run it: `./calc`
+2. Build the project (e.g. `make`)
+3. Run it: `./main`
 
 ## Submitting changes
 
