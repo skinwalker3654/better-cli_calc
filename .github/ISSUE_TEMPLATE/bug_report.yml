@@ -1,6 +1,6 @@
-name: 🐛 Bug Report
-description: Report a bug in the calculator
-title: "[Bug] "
+name: func_problems
+description: there was problems on the --round and pow functions
+title: "[unproper rounding] "
 labels: [bug]
 body:
   - type: markdown
