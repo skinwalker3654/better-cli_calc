@@ -1,4 +1,5 @@
-syntax: ./main <command> <num1> <num2>
+1st syntax: ./main <command> <num1> <num2>
+2nd syntax: ./main <--command> <num1>
 commands:
     add         addition
     sub         subtraction
@@ -13,8 +14,6 @@ commands:
     --fac       factorial of a number 
     --round     rounds the number
     --help      cheetsheets
-
-!!: In the -- commands you pass only 1 number except the --help command
 
 examples:               outputs:
     ./main add 2 4             6.00
