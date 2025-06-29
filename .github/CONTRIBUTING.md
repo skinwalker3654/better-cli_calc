@@ -5,7 +5,7 @@ Thanks for helping! 🙌
 ## Setup
 
 1. Clone the repo
-2. Build the project (e.g. `make`)
+2. Build the project `make`
 3. Run it: `./main`
 
 ## Submitting changes
