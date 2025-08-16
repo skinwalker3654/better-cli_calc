@@ -4,8 +4,7 @@
 #include <errno.h>
 #include "cli.h"
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     float num1, num2;
 
     if (argc == 2 && strcmp(argv[1], help_comand) == 0) {
