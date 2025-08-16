@@ -32,11 +32,11 @@ int main(int argc, char **argv)
             return EXIT_SUCCESS;
         }
         if (strcmp(argv[1], log_num) == 0) {
-            printf("Log of %.2f is %.2f\n", num1, log_of(num1));
+            printf("The log of %.2f is %.2f\n", num1, log_of(num1));
             return EXIT_SUCCESS;
         }
         if (strcmp(argv[1], sqrt_num) == 0) {
-            printf("Square root of %.2f is %.2f\n", num1, square_root(num1));
+            printf("The square root of %.2f is %.2f\n", num1, square_root(num1));
             return EXIT_SUCCESS;
         }
         if (strcmp(argv[1], round_nums) == 0) {
