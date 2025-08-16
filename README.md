@@ -26,8 +26,7 @@ A simple command-line calculator written in C that performs various mathematical
    make 
    cd bin 
    ```
-
-## and you are now ready to try the tool just type
-```bash
-./main  #and whatever argument you want
-```
+3. Run the program 
+   ```bash
+   ./main  #and whatever argument you want
+   ```
