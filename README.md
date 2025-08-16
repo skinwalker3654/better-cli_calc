@@ -28,5 +28,5 @@ A simple command-line calculator written in C that performs various mathematical
    ```
 3. Run the program 
    ```bash
-   ./main  #and whatever argument you want
+   ./main  # and whatever argument you want
    ```
