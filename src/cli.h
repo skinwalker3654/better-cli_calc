@@ -24,11 +24,11 @@ float div_nums(float a, float b);
 float pow_nums(float a, float b);
 float round_num(float a);
 float square_root(float a);
-float log_of(float a);
 int mod_nums(float a, float b);
 float max_num(float a, float b);
 float min_num(float a, float b);
 int factorial_of(float a);
+float log_of(float a);
 void help_info(void);
 
 #endif
